@@ -1,0 +1,565 @@
+{
+  "users": [
+    {
+      "email": "poop@gmail.com",
+      "password": "$2a$10$MfjmkaBlumccbohUjePDjOcJTHHadZegXUptaps8rL7JGfQf6DKYe",
+      "id": "mliahsesjyl",
+      "username": "Poop",
+      "selectedProfile": 2
+    },
+    {
+      "email": "Poop@gmail.com",
+      "password": "$2a$10$6kuXanaiBHi6BZYt08VDnu0VC4o4EOsyD4Yg93bE4X9lXcroNWrUa",
+      "id": "mlicmlg2zee",
+      "username": "Poopy",
+      "selectedProfile": 2
+    },
+    {
+      "email": "wf@gm.com",
+      "password": "$2a$10$VzktcslVFQSwZLT7KnVNW.zYw8wkJIQmBOyleFFI7Sf8u3ECR2vMO",
+      "id": "mlivsuiatmk",
+      "username": "ddd",
+      "selectedProfile": 2
+    },
+    {
+      "email": "nikhil@gmail.com",
+      "password": "$2a$10$f6puBvsfNTrC/YAhj.rrhuWktdv7ihD4k0d.OjN/eAIVP/.giZ8MK",
+      "id": "mlj7l0spai4",
+      "username": "Nikhil",
+      "selectedProfile": 2
+    },
+    {
+      "email": "nikhilcs@gmail.com",
+      "password": "$2a$10$OqwhEF1WI1pKpceQx2r41erV.STEyv1CuPfN3f/o9avhlq1G0Qmf.",
+      "id": "mlj9792p3qn",
+      "username": "Sigmoid",
+      "selectedProfile": 2
+    }
+  ],
+  "expenses": [
+    {
+      "id": "6",
+      "title": "Pharmacy",
+      "amount": 31.2,
+      "categoryId": "6",
+      "date": "2025-01-08T16:45:00Z",
+      "createdAt": "2025-01-08T16:45:00Z"
+    },
+    {
+      "id": "7",
+      "title": "New Jacket",
+      "amount": 79.9,
+      "categoryId": "7",
+      "date": "2025-01-09T18:20:00Z",
+      "createdAt": "2025-01-09T18:20:00Z"
+    },
+    {
+      "id": "12",
+      "title": "Movie Tickets",
+      "amount": 24,
+      "categoryId": "5",
+      "date": "2025-02-08T20:30:00Z",
+      "createdAt": "2025-02-08T20:30:00Z"
+    },
+    {
+      "id": "13",
+      "title": "Doctor Visit",
+      "amount": 55,
+      "categoryId": "6",
+      "date": "2025-02-09T15:10:00Z",
+      "createdAt": "2025-02-09T15:10:00Z"
+    },
+    {
+      "id": "14",
+      "title": "Shoes Purchase",
+      "amount": 99,
+      "categoryId": "7",
+      "date": "2025-02-10T17:20:00Z",
+      "createdAt": "2025-02-10T17:20:00Z"
+    },
+    {
+      "id": "19",
+      "title": "Music Subscription",
+      "amount": 10.99,
+      "categoryId": "5",
+      "date": "2025-03-07T21:00:00Z",
+      "createdAt": "2025-03-07T21:00:00Z"
+    },
+    {
+      "id": "20",
+      "title": "Dental Checkup",
+      "amount": 120,
+      "categoryId": "6",
+      "date": "2025-03-09T14:30:00Z",
+      "createdAt": "2025-03-09T14:30:00Z"
+    },
+    {
+      "id": "21",
+      "title": "Clothing Store",
+      "amount": 76.3,
+      "categoryId": "7",
+      "date": "2025-03-11T17:45:00Z",
+      "createdAt": "2025-03-11T17:45:00Z"
+    },
+    {
+      "id": "26",
+      "title": "Concert Ticket",
+      "amount": 95,
+      "categoryId": "5",
+      "date": "2025-04-07T20:30:00Z",
+      "createdAt": "2025-04-07T20:30:00Z"
+    },
+    {
+      "id": "27",
+      "title": "Medical Checkup",
+      "amount": 140,
+      "categoryId": "6",
+      "date": "2025-04-08T15:00:00Z",
+      "createdAt": "2025-04-08T15:00:00Z"
+    },
+    {
+      "id": "28",
+      "title": "Mall Purchase",
+      "amount": 110.5,
+      "categoryId": "7",
+      "date": "2025-04-10T18:00:00Z",
+      "createdAt": "2025-04-10T18:00:00Z"
+    },
+    {
+      "id": "33",
+      "title": "Streaming",
+      "amount": 12.99,
+      "categoryId": "5",
+      "date": "2025-05-07T21:10:00Z",
+      "createdAt": "2025-05-07T21:10:00Z"
+    },
+    {
+      "id": "34",
+      "title": "Pharmacy",
+      "amount": 36.2,
+      "categoryId": "6",
+      "date": "2025-05-08T16:20:00Z",
+      "createdAt": "2025-05-08T16:20:00Z"
+    },
+    {
+      "id": "35",
+      "title": "Shopping Cart",
+      "amount": 85.4,
+      "categoryId": "7",
+      "date": "2025-05-09T17:30:00Z",
+      "createdAt": "2025-05-09T17:30:00Z"
+    },
+    {
+      "id": "40",
+      "title": "Movie Night",
+      "amount": 22,
+      "categoryId": "5",
+      "date": "2025-06-06T20:15:00Z",
+      "createdAt": "2025-06-06T20:15:00Z"
+    },
+    {
+      "id": "41",
+      "title": "Clinic Visit",
+      "amount": 60,
+      "categoryId": "6",
+      "date": "2025-06-07T15:45:00Z",
+      "createdAt": "2025-06-07T15:45:00Z"
+    },
+    {
+      "id": "42",
+      "title": "Online Shopping",
+      "amount": 92,
+      "categoryId": "7",
+      "date": "2025-06-08T17:00:00Z",
+      "createdAt": "2025-06-08T17:00:00Z"
+    },
+    {
+      "id": "47",
+      "title": "Game Pass",
+      "amount": 14.99,
+      "categoryId": "5",
+      "date": "2025-07-06T21:00:00Z",
+      "createdAt": "2025-07-06T21:00:00Z"
+    },
+    {
+      "id": "48",
+      "title": "Dentist",
+      "amount": 95,
+      "categoryId": "6",
+      "date": "2025-07-08T14:00:00Z",
+      "createdAt": "2025-07-08T14:00:00Z"
+    },
+    {
+      "id": "49",
+      "title": "Sneakers",
+      "amount": 88,
+      "categoryId": "7",
+      "date": "2025-07-09T17:00:00Z",
+      "createdAt": "2025-07-09T17:00:00Z"
+    },
+    {
+      "id": "54",
+      "title": "Cinema",
+      "amount": 21,
+      "categoryId": "5",
+      "date": "2025-08-06T21:10:00Z",
+      "createdAt": "2025-08-06T21:10:00Z"
+    },
+    {
+      "id": "55",
+      "title": "Pharmacy",
+      "amount": 34.5,
+      "categoryId": "6",
+      "date": "2025-08-07T15:00:00Z",
+      "createdAt": "2025-08-07T15:00:00Z"
+    },
+    {
+      "id": "56",
+      "title": "Shopping",
+      "amount": 72,
+      "categoryId": "7",
+      "date": "2025-08-08T17:20:00Z",
+      "createdAt": "2025-08-08T17:20:00Z"
+    },
+    {
+      "id": "61",
+      "title": "Streaming",
+      "amount": 12.99,
+      "categoryId": "5",
+      "date": "2025-09-07T21:05:00Z",
+      "createdAt": "2025-09-07T21:05:00Z"
+    },
+    {
+      "id": "62",
+      "title": "Clinic",
+      "amount": 65,
+      "categoryId": "6",
+      "date": "2025-09-08T14:20:00Z",
+      "createdAt": "2025-09-08T14:20:00Z"
+    },
+    {
+      "id": "63",
+      "title": "New Bag",
+      "amount": 89,
+      "categoryId": "7",
+      "date": "2025-09-09T17:10:00Z",
+      "createdAt": "2025-09-09T17:10:00Z"
+    },
+    {
+      "id": "68",
+      "title": "Concert",
+      "amount": 90,
+      "categoryId": "5",
+      "date": "2025-10-06T20:00:00Z",
+      "createdAt": "2025-10-06T20:00:00Z"
+    },
+    {
+      "id": "69",
+      "title": "Pharmacy",
+      "amount": 33,
+      "categoryId": "6",
+      "date": "2025-10-07T15:00:00Z",
+      "createdAt": "2025-10-07T15:00:00Z"
+    },
+    {
+      "id": "70",
+      "title": "Shopping",
+      "amount": 94,
+      "categoryId": "7",
+      "date": "2025-10-08T17:30:00Z",
+      "createdAt": "2025-10-08T17:30:00Z"
+    },
+    {
+      "id": "75",
+      "title": "Streaming",
+      "amount": 13.99,
+      "categoryId": "5",
+      "date": "2025-11-06T20:45:00Z",
+      "createdAt": "2025-11-06T20:45:00Z"
+    },
+    {
+      "id": "76",
+      "title": "Doctor",
+      "amount": 58,
+      "categoryId": "6",
+      "date": "2025-11-07T15:15:00Z",
+      "createdAt": "2025-11-07T15:15:00Z"
+    },
+    {
+      "id": "77",
+      "title": "Shopping",
+      "amount": 82,
+      "categoryId": "7",
+      "date": "2025-11-08T17:10:00Z",
+      "createdAt": "2025-11-08T17:10:00Z"
+    },
+    {
+      "id": "82",
+      "title": "Movies",
+      "amount": 20,
+      "categoryId": "5",
+      "date": "2025-12-07T21:00:00Z",
+      "createdAt": "2025-12-07T21:00:00Z"
+    },
+    {
+      "id": "168",
+      "title": "Holiday Movie",
+      "amount": 24.5,
+      "categoryId": "5",
+      "date": "2025-12-24T20:15:00Z",
+      "createdAt": "2025-12-24T20:15:00Z"
+    },
+    {
+      "id": "83",
+      "title": "Clinic",
+      "amount": 62,
+      "categoryId": "6",
+      "date": "2025-12-08T14:40:00Z",
+      "createdAt": "2025-12-08T14:40:00Z"
+    },
+    {
+      "id": "84",
+      "title": "Shopping",
+      "amount": 97,
+      "categoryId": "7",
+      "date": "2025-12-09T17:50:00Z",
+      "createdAt": "2025-12-09T17:50:00Z"
+    },
+    {
+      "id": "164",
+      "title": "Holiday Shopping",
+      "amount": 156.8,
+      "categoryId": "7",
+      "date": "2025-12-12T16:20:00Z",
+      "createdAt": "2025-12-12T16:20:00Z"
+    },
+    {
+      "id": "165",
+      "title": "Gift Shopping",
+      "amount": 203.4,
+      "categoryId": "7",
+      "date": "2025-12-22T15:45:00Z",
+      "createdAt": "2025-12-22T15:45:00Z"
+    },
+    {
+      "id": "166",
+      "title": "Boxing Day Sales",
+      "amount": 134.6,
+      "categoryId": "7",
+      "date": "2025-12-26T11:30:00Z",
+      "createdAt": "2025-12-26T11:30:00Z"
+    },
+    {
+      "id": "167",
+      "title": "Year-end Sale",
+      "amount": 87.2,
+      "categoryId": "7",
+      "date": "2025-12-28T14:10:00Z",
+      "createdAt": "2025-12-28T14:10:00Z"
+    },
+    {
+      "id": "175",
+      "title": "Electronics Purchase",
+      "amount": 289.99,
+      "categoryId": "7",
+      "date": "2025-01-20T16:30:00Z",
+      "createdAt": "2025-01-20T16:30:00Z"
+    },
+    {
+      "id": "176",
+      "title": "Spring Clothing",
+      "amount": 156.8,
+      "categoryId": "7",
+      "date": "2025-04-15T14:20:00Z",
+      "createdAt": "2025-04-15T14:20:00Z"
+    },
+    {
+      "id": "177",
+      "title": "Summer Essentials",
+      "amount": 89.5,
+      "categoryId": "7",
+      "date": "2025-06-28T17:45:00Z",
+      "createdAt": "2025-06-28T17:45:00Z"
+    },
+    {
+      "id": "178",
+      "title": "Back to School",
+      "amount": 124.3,
+      "categoryId": "7",
+      "date": "2025-08-25T15:10:00Z",
+      "createdAt": "2025-08-25T15:10:00Z"
+    },
+    {
+      "id": "179",
+      "title": "Winter Gear",
+      "amount": 178.6,
+      "categoryId": "7",
+      "date": "2025-10-30T18:15:00Z",
+      "createdAt": "2025-10-30T18:15:00Z"
+    },
+    {
+      "id": "186",
+      "title": "Theater Show",
+      "amount": 78,
+      "categoryId": "5",
+      "date": "2025-05-18T20:00:00Z",
+      "createdAt": "2025-05-18T20:00:00Z"
+    },
+    {
+      "id": "187",
+      "title": "Gaming Console",
+      "amount": 299.99,
+      "categoryId": "5",
+      "date": "2025-08-12T16:45:00Z",
+      "createdAt": "2025-08-12T16:45:00Z"
+    },
+    {
+      "id": "224",
+      "title": "Movie Tickets",
+      "amount": 32,
+      "categoryId": "5",
+      "date": "2026-01-06T20:30:00Z",
+      "createdAt": "2026-01-06T20:30:00Z"
+    },
+    {
+      "id": "225",
+      "title": "Concert Show",
+      "amount": 95.5,
+      "categoryId": "5",
+      "date": "2026-01-18T21:00:00Z",
+      "createdAt": "2026-01-18T21:00:00Z"
+    },
+    {
+      "id": "226",
+      "title": "Streaming Apps",
+      "amount": 24.97,
+      "categoryId": "5",
+      "date": "2026-01-25T19:45:00Z",
+      "createdAt": "2026-01-25T19:45:00Z"
+    },
+    {
+      "id": "227",
+      "title": "Pharmacy Visit",
+      "amount": 56.8,
+      "categoryId": "6",
+      "date": "2026-01-09T15:20:00Z",
+      "createdAt": "2026-01-09T15:20:00Z"
+    },
+    {
+      "id": "228",
+      "title": "Doctor Checkup",
+      "amount": 185,
+      "categoryId": "6",
+      "date": "2026-01-23T14:30:00Z",
+      "createdAt": "2026-01-23T14:30:00Z"
+    },
+    {
+      "id": "229",
+      "title": "Winter Clothing",
+      "amount": 234.6,
+      "categoryId": "7",
+      "date": "2026-01-04T17:45:00Z",
+      "createdAt": "2026-01-04T17:45:00Z"
+    },
+    {
+      "id": "230",
+      "title": "Electronics Store",
+      "amount": 456.8,
+      "categoryId": "7",
+      "date": "2026-01-11T16:20:00Z",
+      "createdAt": "2026-01-11T16:20:00Z"
+    },
+    {
+      "id": "231",
+      "title": "Home Decor",
+      "amount": 189.3,
+      "categoryId": "7",
+      "date": "2026-01-17T18:10:00Z",
+      "createdAt": "2026-01-17T18:10:00Z"
+    },
+    {
+      "id": "232",
+      "title": "Online Shopping",
+      "amount": 123.7,
+      "categoryId": "7",
+      "date": "2026-01-24T19:30:00Z",
+      "createdAt": "2026-01-24T19:30:00Z"
+    },
+    {
+      "id": "239",
+      "title": "Movie Date",
+      "amount": 45,
+      "categoryId": "5",
+      "date": "2026-02-01T21:15:00Z",
+      "createdAt": "2026-02-01T21:15:00Z"
+    },
+    {
+      "id": "240",
+      "title": "Pharmacy",
+      "amount": 67.4,
+      "categoryId": "6",
+      "date": "2026-02-06T16:20:00Z",
+      "createdAt": "2026-02-06T16:20:00Z"
+    },
+    {
+      "id": "241",
+      "title": "Valentine Gift",
+      "amount": 234.5,
+      "categoryId": "7",
+      "date": "2026-02-13T17:30:00Z",
+      "createdAt": "2026-02-13T17:30:00Z"
+    },
+    {
+      "title": "Dinner",
+      "amount": 50,
+      "categoryId": "Kc24q0w",
+      "date": "2026-02-10T00:00:00.000Z",
+      "id": "5P_kmvh"
+    },
+    {
+      "title": "chairs",
+      "amount": 500,
+      "categoryId": "mVmhpEx",
+      "date": "2026-02-12T00:00:00.000Z",
+      "id": "-GtwuQM"
+    }
+  ],
+  "categories": [
+    {
+      "id": "5",
+      "name": "Entertainment",
+      "color": "bg-yellow-500",
+      "icon": "Monitor"
+    },
+    {
+      "id": "6",
+      "name": "Healthcare",
+      "color": "bg-green-500",
+      "icon": "Heart"
+    },
+    {
+      "id": "7",
+      "name": "Shopping",
+      "color": "bg-violet-500",
+      "icon": "ShoppingBag"
+    },
+    {
+      "name": "bag",
+      "icon": "ShoppingBag",
+      "color": "bg-orange-500",
+      "id": "0xJuywe"
+    },
+    {
+      "name": "Dinning",
+      "icon": "Coffee",
+      "color": "bg-sky-500",
+      "id": "Kc24q0w"
+    },
+    {
+      "name": "miscellanous",
+      "icon": "Truck",
+      "color": "bg-orange-500",
+      "id": "mVmhpEx"
+    }
+  ]
+}
