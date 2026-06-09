@@ -2,6 +2,13 @@
 
 A modern, feature-rich expense tracking application built with React and Redux Toolkit. Track your expenses, analyze spending patterns, and manage your finances efficiently with an intuitive dark-mode interface.
 
+## 🌐 Live Demo
+
+**Frontend:** [https://expensio-cldz.onrender.com](https://expensio-cldz.onrender.com)  
+**Backend API:** [https://expensio-backend-gsfg.onrender.com](https://expensio-backend-gsfg.onrender.com)
+
+> Note: Free tier on Render — first load may take 30-60s if the server has gone to sleep.
+
 ![Signup Page](./images/signup.png)
 ![Login Page](./images/login.png)
 ![Categories Page](./images/categories.png)
