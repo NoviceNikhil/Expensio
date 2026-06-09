@@ -22,14 +22,6 @@ app.db = router.db;
 
 const PORT = process.env.PORT || 5000;
 
-const middlewares = [
-  jsonServer.defaults({
-    // Allow requests from your Render frontend URL
-    // Set FRONTEND_URL env var on Render
-  }),
-  auth
-];
-
 // CORS handling for cloud deployment
 app.use((req, res, next) => {
   const allowedOrigins = [
@@ -40,10 +32,14 @@ app.use((req, res, next) => {
   const origin = req.headers.origin;
   if (allowedOrigins.includes(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
+  } else {
+    // Fallback: allow all origins in case env var isn't set yet
+    res.setHeader('Access-Control-Allow-Origin', req.headers.origin || '*');
   }
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   res.setHeader('Access-Control-Expose-Headers', 'X-Total-Count');
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
 
   if (req.method === 'OPTIONS') {
     return res.sendStatus(204);
@@ -51,9 +47,11 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(middlewares);
+app.use(jsonServer.defaults({ noCors: true }));
+app.use(jsonServer.bodyParser);
+app.use(auth);
 app.use(router);
 
 app.listen(PORT, () => {
-  console.log(` JSON Server + Auth running on http://localhost:${PORT}`);
+  console.log(` JSON Server + Auth running on port ${PORT}`);
 });
