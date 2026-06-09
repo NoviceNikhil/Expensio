@@ -1,6 +1,7 @@
 import axios from "axios";
 // various services and api endpoints to interact with JSON server db which are redux compatible and return the promise alone handled in component
-const BASE_URL = "http://localhost:5000/categories";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+const BASE_URL = `${API_BASE}/categories`;
 const getCategories = async (queryString) => {
   const res = await axios.get(`${BASE_URL}?${queryString}`);
   return res.data;

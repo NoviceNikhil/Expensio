@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/expenses";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+const BASE_URL = `${API_BASE}/expenses`;
 // various services and api endpoints to interact with JSON server db which are redux compatible and return the promise alone handled in component
 const getExpenses = async (queryString = "") => {
   const url = queryString ? `${BASE_URL}?${queryString}` : BASE_URL;

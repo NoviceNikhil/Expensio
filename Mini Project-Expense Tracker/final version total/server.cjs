@@ -19,14 +19,41 @@ const auth = require('json-server-auth');
 const app = jsonServer.create();
 const router = jsonServer.router('./my_db.json');
 app.db = router.db;
+
+const PORT = process.env.PORT || 5000;
+
 const middlewares = [
-  jsonServer.defaults(),
+  jsonServer.defaults({
+    // Allow requests from your Render frontend URL
+    // Set FRONTEND_URL env var on Render
+  }),
   auth
 ];
+
+// CORS handling for cloud deployment
+app.use((req, res, next) => {
+  const allowedOrigins = [
+    'http://localhost:5173',
+    process.env.FRONTEND_URL
+  ].filter(Boolean);
+
+  const origin = req.headers.origin;
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  }
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.setHeader('Access-Control-Expose-Headers', 'X-Total-Count');
+
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(204);
+  }
+  next();
+});
 
 app.use(middlewares);
 app.use(router);
 
-app.listen(5000, () => {
-  console.log(' JSON Server + Auth running on http://localhost:5000');
+app.listen(PORT, () => {
+  console.log(` JSON Server + Auth running on http://localhost:${PORT}`);
 });

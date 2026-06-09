@@ -2,8 +2,11 @@
 
 A modern, feature-rich expense tracking application built with React and Redux Toolkit. Track your expenses, analyze spending patterns, and manage your finances efficiently with an intuitive dark-mode interface.
 
-![Signup Page](37D48947-9337-4C31-A5BA-762587E809B1_1_105_c.jpeg)
-![Login Page](0C3685E3-EC56-4AA8-8594-7DE4D5072943_1_105_c.jpeg) ![Categories Page](24862290-2A48-489F-9569-F21905E019C2_1_105_c.jpeg) ![Analytics and Dashboard Page](ED4E5026-970B-4103-8AF0-4FE72D889BC1.png) ![Expenses Page](E3A36D8A-B053-4E01-970D-AC67EAC2CECB.png)
+![Signup Page](./images/signup.png)
+![Login Page](./images/login.png)
+![Categories Page](./images/categories.png)
+![Dashboard Page](./images/dashboard.png)
+![Expenses Page](./images/expenses.png)
 
 ## 🌟 Features
 

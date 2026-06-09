@@ -1,6 +1,7 @@
 import axios from "axios";
-const base_url = `http://localhost:5000/users/`;
-const auth_url="http://localhost:5000/"
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+const base_url = `${API_BASE}/users/`;
+const auth_url = `${API_BASE}/`;
 function generateRandomId() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
   // "lhk8p9m2x4k"
